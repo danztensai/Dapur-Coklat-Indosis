@@ -1,0 +1,6 @@
+framework module Pods_Dapur_Coklat_Indosis {
+  umbrella header "Pods-Dapur Coklat Indosis-umbrella.h"
+
+  export *
+  module * { export * }
+}

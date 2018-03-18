@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A5472B384A5E7DE4D4B475D /* Pods_Dapur_Coklat_Indosis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C1AF171ED8CD6FA300F4B1 /* Pods_Dapur_Coklat_Indosis.framework */; };
+		468C82EBACCF6A9D7A31C338 /* Pods_Dapur_Coklat_IndosisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F65779465F09CF3B9F2C0A /* Pods_Dapur_Coklat_IndosisTests.framework */; };
 		E408B694205D166F00E937E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E408B693205D166F00E937E7 /* AppDelegate.swift */; };
 		E408B696205D166F00E937E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E408B695205D166F00E937E7 /* ViewController.swift */; };
 		E408B699205D166F00E937E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E408B697205D166F00E937E7 /* Main.storyboard */; };
 		E408B69B205D166F00E937E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E408B69A205D166F00E937E7 /* Assets.xcassets */; };
 		E408B69E205D166F00E937E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E408B69C205D166F00E937E7 /* LaunchScreen.storyboard */; };
 		E408B6A9205D166F00E937E7 /* Dapur_Coklat_IndosisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E408B6A8205D166F00E937E7 /* Dapur_Coklat_IndosisTests.swift */; };
+		E4952AE6205DAA6100622300 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4952AE5205DAA6100622300 /* MainViewController.swift */; };
+		E4AFEF83205D1C8A0066A58E /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AFEF82205D1C8A0066A58E /* APIManager.swift */; };
+		E4FC565C205E27F1002732FC /* CakeCategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FC565B205E27F1002732FC /* CakeCategoryTableViewCell.swift */; };
+		E4FC565E205E2C75002732FC /* CakeCategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FC565D205E2C75002732FC /* CakeCategoryTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +32,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		070E5F7AECB35A9FA30E2CC1 /* Pods-Dapur Coklat Indosis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dapur Coklat Indosis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dapur Coklat Indosis/Pods-Dapur Coklat Indosis.debug.xcconfig"; sourceTree = "<group>"; };
+		28144E6AB109E83C58ED27D2 /* Pods-Dapur Coklat IndosisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dapur Coklat IndosisTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dapur Coklat IndosisTests/Pods-Dapur Coklat IndosisTests.release.xcconfig"; sourceTree = "<group>"; };
+		30C1AF171ED8CD6FA300F4B1 /* Pods_Dapur_Coklat_Indosis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dapur_Coklat_Indosis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94F65779465F09CF3B9F2C0A /* Pods_Dapur_Coklat_IndosisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dapur_Coklat_IndosisTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF9C38C7DA7057AE841D17F5 /* Pods-Dapur Coklat Indosis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dapur Coklat Indosis.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dapur Coklat Indosis/Pods-Dapur Coklat Indosis.release.xcconfig"; sourceTree = "<group>"; };
 		E408B690205D166F00E937E7 /* Dapur Coklat Indosis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dapur Coklat Indosis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E408B693205D166F00E937E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E408B695205D166F00E937E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +47,11 @@
 		E408B6A4205D166F00E937E7 /* Dapur Coklat IndosisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dapur Coklat IndosisTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E408B6A8205D166F00E937E7 /* Dapur_Coklat_IndosisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dapur_Coklat_IndosisTests.swift; sourceTree = "<group>"; };
 		E408B6AA205D166F00E937E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4952AE5205DAA6100622300 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E4AFEF82205D1C8A0066A58E /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		E4FC565B205E27F1002732FC /* CakeCategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeCategoryTableViewCell.swift; sourceTree = "<group>"; };
+		E4FC565D205E2C75002732FC /* CakeCategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeCategoryTableViewController.swift; sourceTree = "<group>"; };
+		F433A4B4BE4FF76C5758AD31 /* Pods-Dapur Coklat IndosisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dapur Coklat IndosisTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dapur Coklat IndosisTests/Pods-Dapur Coklat IndosisTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A5472B384A5E7DE4D4B475D /* Pods_Dapur_Coklat_Indosis.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +67,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				468C82EBACCF6A9D7A31C338 /* Pods_Dapur_Coklat_IndosisTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13F24AFA9B4A2BC2FCC44204 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30C1AF171ED8CD6FA300F4B1 /* Pods_Dapur_Coklat_Indosis.framework */,
+				94F65779465F09CF3B9F2C0A /* Pods_Dapur_Coklat_IndosisTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC921089EBDB7728A59FFBFD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				070E5F7AECB35A9FA30E2CC1 /* Pods-Dapur Coklat Indosis.debug.xcconfig */,
+				BF9C38C7DA7057AE841D17F5 /* Pods-Dapur Coklat Indosis.release.xcconfig */,
+				F433A4B4BE4FF76C5758AD31 /* Pods-Dapur Coklat IndosisTests.debug.xcconfig */,
+				28144E6AB109E83C58ED27D2 /* Pods-Dapur Coklat IndosisTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E408B687205D166F00E937E7 = {
 			isa = PBXGroup;
 			children = (
 				E408B692205D166F00E937E7 /* Dapur Coklat Indosis */,
 				E408B6A7205D166F00E937E7 /* Dapur Coklat IndosisTests */,
 				E408B691205D166F00E937E7 /* Products */,
+				AC921089EBDB7728A59FFBFD /* Pods */,
+				13F24AFA9B4A2BC2FCC44204 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,9 +117,13 @@
 		E408B692205D166F00E937E7 /* Dapur Coklat Indosis */ = {
 			isa = PBXGroup;
 			children = (
+				E4AFEF82205D1C8A0066A58E /* APIManager.swift */,
 				E408B693205D166F00E937E7 /* AppDelegate.swift */,
+				E4FC565B205E27F1002732FC /* CakeCategoryTableViewCell.swift */,
 				E408B695205D166F00E937E7 /* ViewController.swift */,
+				E4952AE5205DAA6100622300 /* MainViewController.swift */,
 				E408B697205D166F00E937E7 /* Main.storyboard */,
+				E4FC565D205E2C75002732FC /* CakeCategoryTableViewController.swift */,
 				E408B69A205D166F00E937E7 /* Assets.xcassets */,
 				E408B69C205D166F00E937E7 /* LaunchScreen.storyboard */,
 				E408B69F205D166F00E937E7 /* Info.plist */,
@@ -103,9 +147,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E408B6AD205D166F00E937E7 /* Build configuration list for PBXNativeTarget "Dapur Coklat Indosis" */;
 			buildPhases = (
+				704C7A2D1B2E03F6D05BE4ED /* [CP] Check Pods Manifest.lock */,
 				E408B68C205D166F00E937E7 /* Sources */,
 				E408B68D205D166F00E937E7 /* Frameworks */,
 				E408B68E205D166F00E937E7 /* Resources */,
+				3C07500CF8BB0D79CA4F359B /* [CP] Embed Pods Frameworks */,
+				8E2E969A3DD40B59EFA1F88F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E408B6B0205D166F00E937E7 /* Build configuration list for PBXNativeTarget "Dapur Coklat IndosisTests" */;
 			buildPhases = (
+				5A5969BA21DBA8B037BA6743 /* [CP] Check Pods Manifest.lock */,
 				E408B6A0205D166F00E937E7 /* Sources */,
 				E408B6A1205D166F00E937E7 /* Frameworks */,
 				E408B6A2205D166F00E937E7 /* Resources */,
+				60EE0EA725BD64CB797C7EE7 /* [CP] Embed Pods Frameworks */,
+				36ECA162074A7C47292C5775 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,13 +244,141 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		36ECA162074A7C47292C5775 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dapur Coklat IndosisTests/Pods-Dapur Coklat IndosisTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C07500CF8BB0D79CA4F359B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Dapur Coklat Indosis/Pods-Dapur Coklat Indosis-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Graph/Graph.framework",
+				"${BUILT_PRODUCTS_DIR}/ImageSlideshow/ImageSlideshow.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
+				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Graph.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageSlideshow.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dapur Coklat Indosis/Pods-Dapur Coklat Indosis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A5969BA21DBA8B037BA6743 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dapur Coklat IndosisTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60EE0EA725BD64CB797C7EE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dapur Coklat IndosisTests/Pods-Dapur Coklat IndosisTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		704C7A2D1B2E03F6D05BE4ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dapur Coklat Indosis-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E2E969A3DD40B59EFA1F88F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dapur Coklat Indosis/Pods-Dapur Coklat Indosis-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E408B68C205D166F00E937E7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4AFEF83205D1C8A0066A58E /* APIManager.swift in Sources */,
 				E408B696205D166F00E937E7 /* ViewController.swift in Sources */,
 				E408B694205D166F00E937E7 /* AppDelegate.swift in Sources */,
+				E4FC565C205E27F1002732FC /* CakeCategoryTableViewCell.swift in Sources */,
+				E4952AE6205DAA6100622300 /* MainViewController.swift in Sources */,
+				E4FC565E205E2C75002732FC /* CakeCategoryTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +529,7 @@
 		};
 		E408B6AE205D166F00E937E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 070E5F7AECB35A9FA30E2CC1 /* Pods-Dapur Coklat Indosis.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -366,6 +545,7 @@
 		};
 		E408B6AF205D166F00E937E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF9C38C7DA7057AE841D17F5 /* Pods-Dapur Coklat Indosis.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -381,6 +561,7 @@
 		};
 		E408B6B1205D166F00E937E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F433A4B4BE4FF76C5758AD31 /* Pods-Dapur Coklat IndosisTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -398,6 +579,7 @@
 		};
 		E408B6B2205D166F00E937E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28144E6AB109E83C58ED27D2 /* Pods-Dapur Coklat IndosisTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
