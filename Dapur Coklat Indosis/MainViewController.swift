@@ -13,9 +13,7 @@ class MainViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
     
     
     
-    open override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
-        return .portrait
-    }
+    
     
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet var slideshow: ImageSlideshow!
@@ -74,6 +72,29 @@ class MainViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         cell.cakeImage.image = cake_image[indexPath.row]
         return cell
     }
+    open override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return .portrait
+    }
+    override func viewDidAppear(_ animated: Bool) {
+        // 1
+        let nav = self.navigationController?.navigationBar
+        
+        // 2
+        nav?.barStyle = UIBarStyle.black
+        nav?.tintColor = UIColor.yellow
+        
+        // 3
+        let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 40, height: 40))
+        imageView.contentMode = .scaleAspectFit
+        
+        // 4
+        let image = UIImage(named: "logo-dapur-coklat")
+        imageView.image = image
+        
+        // 5
+        navigationItem.titleView = imageView
+    }
+    
     @objc func didTap() {
         let fullScreenController = slideshow.presentFullScreenController(from: self)
         // set the activity indicator for full screen controller (skipping the line will show no activity indicator)

@@ -15,6 +15,9 @@
 		E408B69B205D166F00E937E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E408B69A205D166F00E937E7 /* Assets.xcassets */; };
 		E408B69E205D166F00E937E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E408B69C205D166F00E937E7 /* LaunchScreen.storyboard */; };
 		E408B6A9205D166F00E937E7 /* Dapur_Coklat_IndosisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E408B6A8205D166F00E937E7 /* Dapur_Coklat_IndosisTests.swift */; };
+		E4362468206085C000CF2AE7 /* SideMenuControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4362467206085C000CF2AE7 /* SideMenuControllerViewController.swift */; };
+		E436246A20608B7E00CF2AE7 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E436246920608B7E00CF2AE7 /* UIImageView.swift */; };
+		E436246C2060903400CF2AE7 /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E436246B2060903400CF2AE7 /* SideMenuTableViewCell.swift */; };
 		E4952AE6205DAA6100622300 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4952AE5205DAA6100622300 /* MainViewController.swift */; };
 		E4AFEF83205D1C8A0066A58E /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AFEF82205D1C8A0066A58E /* APIManager.swift */; };
 		E4FC565C205E27F1002732FC /* CakeCategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FC565B205E27F1002732FC /* CakeCategoryTableViewCell.swift */; };
@@ -47,6 +50,9 @@
 		E408B6A4205D166F00E937E7 /* Dapur Coklat IndosisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dapur Coklat IndosisTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E408B6A8205D166F00E937E7 /* Dapur_Coklat_IndosisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dapur_Coklat_IndosisTests.swift; sourceTree = "<group>"; };
 		E408B6AA205D166F00E937E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4362467206085C000CF2AE7 /* SideMenuControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuControllerViewController.swift; sourceTree = "<group>"; };
+		E436246920608B7E00CF2AE7 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		E436246B2060903400CF2AE7 /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewCell.swift; sourceTree = "<group>"; };
 		E4952AE5205DAA6100622300 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E4AFEF82205D1C8A0066A58E /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		E4FC565B205E27F1002732FC /* CakeCategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeCategoryTableViewCell.swift; sourceTree = "<group>"; };
@@ -121,9 +127,12 @@
 				E408B693205D166F00E937E7 /* AppDelegate.swift */,
 				E4FC565B205E27F1002732FC /* CakeCategoryTableViewCell.swift */,
 				E408B695205D166F00E937E7 /* ViewController.swift */,
+				E4362467206085C000CF2AE7 /* SideMenuControllerViewController.swift */,
+				E436246B2060903400CF2AE7 /* SideMenuTableViewCell.swift */,
 				E4952AE5205DAA6100622300 /* MainViewController.swift */,
-				E408B697205D166F00E937E7 /* Main.storyboard */,
+				E436246920608B7E00CF2AE7 /* UIImageView.swift */,
 				E4FC565D205E2C75002732FC /* CakeCategoryTableViewController.swift */,
+				E408B697205D166F00E937E7 /* Main.storyboard */,
 				E408B69A205D166F00E937E7 /* Assets.xcassets */,
 				E408B69C205D166F00E937E7 /* LaunchScreen.storyboard */,
 				E408B69F205D166F00E937E7 /* Info.plist */,
@@ -373,10 +382,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E436246A20608B7E00CF2AE7 /* UIImageView.swift in Sources */,
+				E4362468206085C000CF2AE7 /* SideMenuControllerViewController.swift in Sources */,
 				E4AFEF83205D1C8A0066A58E /* APIManager.swift in Sources */,
 				E408B696205D166F00E937E7 /* ViewController.swift in Sources */,
 				E408B694205D166F00E937E7 /* AppDelegate.swift in Sources */,
 				E4FC565C205E27F1002732FC /* CakeCategoryTableViewCell.swift in Sources */,
+				E436246C2060903400CF2AE7 /* SideMenuTableViewCell.swift in Sources */,
 				E4952AE6205DAA6100622300 /* MainViewController.swift in Sources */,
 				E4FC565E205E2C75002732FC /* CakeCategoryTableViewController.swift in Sources */,
 			);
