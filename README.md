@@ -5,7 +5,7 @@ CocoaPods is a dependency manager for Cocoa projects. You can install it with th
 Open Terminal then run
 $ gem install cocoapods
 
-# For Swift 4 (no longer maintained)
+# Using Swift 4
 
 Open Terminal Then, run the following command:
 
