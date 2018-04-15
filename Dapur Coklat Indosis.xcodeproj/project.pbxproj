@@ -18,6 +18,8 @@
 		E4362468206085C000CF2AE7 /* SideMenuControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4362467206085C000CF2AE7 /* SideMenuControllerViewController.swift */; };
 		E436246A20608B7E00CF2AE7 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E436246920608B7E00CF2AE7 /* UIImageView.swift */; };
 		E436246C2060903400CF2AE7 /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E436246B2060903400CF2AE7 /* SideMenuTableViewCell.swift */; };
+		E43E29E3207E05B3003DCD21 /* Cake.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43E29E2207E05B3003DCD21 /* Cake.swift */; };
+		E43E29E5207E0904003DCD21 /* Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43E29E4207E0904003DCD21 /* Properties.swift */; };
 		E4952AE6205DAA6100622300 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4952AE5205DAA6100622300 /* MainViewController.swift */; };
 		E4AFEF83205D1C8A0066A58E /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AFEF82205D1C8A0066A58E /* APIManager.swift */; };
 		E4FC565C205E27F1002732FC /* CakeCategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FC565B205E27F1002732FC /* CakeCategoryTableViewCell.swift */; };
@@ -53,6 +55,8 @@
 		E4362467206085C000CF2AE7 /* SideMenuControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuControllerViewController.swift; sourceTree = "<group>"; };
 		E436246920608B7E00CF2AE7 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 		E436246B2060903400CF2AE7 /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewCell.swift; sourceTree = "<group>"; };
+		E43E29E2207E05B3003DCD21 /* Cake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cake.swift; sourceTree = "<group>"; };
+		E43E29E4207E0904003DCD21 /* Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Properties.swift; sourceTree = "<group>"; };
 		E4952AE5205DAA6100622300 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E4AFEF82205D1C8A0066A58E /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		E4FC565B205E27F1002732FC /* CakeCategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeCategoryTableViewCell.swift; sourceTree = "<group>"; };
@@ -133,6 +137,8 @@
 				E436246920608B7E00CF2AE7 /* UIImageView.swift */,
 				E4FC565D205E2C75002732FC /* CakeCategoryTableViewController.swift */,
 				E408B697205D166F00E937E7 /* Main.storyboard */,
+				E43E29E2207E05B3003DCD21 /* Cake.swift */,
+				E43E29E4207E0904003DCD21 /* Properties.swift */,
 				E408B69A205D166F00E937E7 /* Assets.xcassets */,
 				E408B69C205D166F00E937E7 /* LaunchScreen.storyboard */,
 				E408B69F205D166F00E937E7 /* Info.plist */,
@@ -389,6 +395,8 @@
 				E408B694205D166F00E937E7 /* AppDelegate.swift in Sources */,
 				E4FC565C205E27F1002732FC /* CakeCategoryTableViewCell.swift in Sources */,
 				E436246C2060903400CF2AE7 /* SideMenuTableViewCell.swift in Sources */,
+				E43E29E3207E05B3003DCD21 /* Cake.swift in Sources */,
+				E43E29E5207E0904003DCD21 /* Properties.swift in Sources */,
 				E4952AE6205DAA6100622300 /* MainViewController.swift in Sources */,
 				E4FC565E205E2C75002732FC /* CakeCategoryTableViewController.swift in Sources */,
 			);
