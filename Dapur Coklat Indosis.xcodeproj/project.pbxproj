@@ -19,9 +19,14 @@
 		E436246A20608B7E00CF2AE7 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E436246920608B7E00CF2AE7 /* UIImageView.swift */; };
 		E436246C2060903400CF2AE7 /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E436246B2060903400CF2AE7 /* SideMenuTableViewCell.swift */; };
 		E43E29E3207E05B3003DCD21 /* Cake.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43E29E2207E05B3003DCD21 /* Cake.swift */; };
-		E43E29E5207E0904003DCD21 /* Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43E29E4207E0904003DCD21 /* Properties.swift */; };
+		E43E29E5207E0904003DCD21 /* Variant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43E29E4207E0904003DCD21 /* Variant.swift */; };
+		E43E29EB2085506A003DCD21 /* CakeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43E29EA2085506A003DCD21 /* CakeViewController.swift */; };
+		E43E29ED2085510E003DCD21 /* CakeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43E29EC2085510E003DCD21 /* CakeTableViewCell.swift */; };
+		E43E29EF20A0F437003DCD21 /* CakeOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43E29EE20A0F437003DCD21 /* CakeOrderViewController.swift */; };
 		E4952AE6205DAA6100622300 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4952AE5205DAA6100622300 /* MainViewController.swift */; };
 		E4AFEF83205D1C8A0066A58E /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AFEF82205D1C8A0066A58E /* APIManager.swift */; };
+		E4DCB19520A912DD00DFB454 /* PlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DCB19420A912DD00DFB454 /* PlaceViewController.swift */; };
+		E4DCB19720A9149500DFB454 /* PlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DCB19620A9149500DFB454 /* PlaceTableViewCell.swift */; };
 		E4FC565C205E27F1002732FC /* CakeCategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FC565B205E27F1002732FC /* CakeCategoryTableViewCell.swift */; };
 		E4FC565E205E2C75002732FC /* CakeCategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FC565D205E2C75002732FC /* CakeCategoryTableViewController.swift */; };
 /* End PBXBuildFile section */
@@ -56,9 +61,14 @@
 		E436246920608B7E00CF2AE7 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 		E436246B2060903400CF2AE7 /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewCell.swift; sourceTree = "<group>"; };
 		E43E29E2207E05B3003DCD21 /* Cake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cake.swift; sourceTree = "<group>"; };
-		E43E29E4207E0904003DCD21 /* Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Properties.swift; sourceTree = "<group>"; };
+		E43E29E4207E0904003DCD21 /* Variant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variant.swift; sourceTree = "<group>"; };
+		E43E29EA2085506A003DCD21 /* CakeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeViewController.swift; sourceTree = "<group>"; };
+		E43E29EC2085510E003DCD21 /* CakeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeTableViewCell.swift; sourceTree = "<group>"; };
+		E43E29EE20A0F437003DCD21 /* CakeOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeOrderViewController.swift; sourceTree = "<group>"; };
 		E4952AE5205DAA6100622300 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E4AFEF82205D1C8A0066A58E /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		E4DCB19420A912DD00DFB454 /* PlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceViewController.swift; sourceTree = "<group>"; };
+		E4DCB19620A9149500DFB454 /* PlaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceTableViewCell.swift; sourceTree = "<group>"; };
 		E4FC565B205E27F1002732FC /* CakeCategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeCategoryTableViewCell.swift; sourceTree = "<group>"; };
 		E4FC565D205E2C75002732FC /* CakeCategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeCategoryTableViewController.swift; sourceTree = "<group>"; };
 		F433A4B4BE4FF76C5758AD31 /* Pods-Dapur Coklat IndosisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dapur Coklat IndosisTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dapur Coklat IndosisTests/Pods-Dapur Coklat IndosisTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -130,15 +140,20 @@
 				E4AFEF82205D1C8A0066A58E /* APIManager.swift */,
 				E408B693205D166F00E937E7 /* AppDelegate.swift */,
 				E4FC565B205E27F1002732FC /* CakeCategoryTableViewCell.swift */,
-				E408B695205D166F00E937E7 /* ViewController.swift */,
 				E4362467206085C000CF2AE7 /* SideMenuControllerViewController.swift */,
 				E436246B2060903400CF2AE7 /* SideMenuTableViewCell.swift */,
 				E4952AE5205DAA6100622300 /* MainViewController.swift */,
 				E436246920608B7E00CF2AE7 /* UIImageView.swift */,
-				E4FC565D205E2C75002732FC /* CakeCategoryTableViewController.swift */,
 				E408B697205D166F00E937E7 /* Main.storyboard */,
+				E408B695205D166F00E937E7 /* ViewController.swift */,
+				E4FC565D205E2C75002732FC /* CakeCategoryTableViewController.swift */,
+				E43E29EA2085506A003DCD21 /* CakeViewController.swift */,
+				E43E29EE20A0F437003DCD21 /* CakeOrderViewController.swift */,
+				E43E29EC2085510E003DCD21 /* CakeTableViewCell.swift */,
+				E4DCB19420A912DD00DFB454 /* PlaceViewController.swift */,
+				E4DCB19620A9149500DFB454 /* PlaceTableViewCell.swift */,
 				E43E29E2207E05B3003DCD21 /* Cake.swift */,
-				E43E29E4207E0904003DCD21 /* Properties.swift */,
+				E43E29E4207E0904003DCD21 /* Variant.swift */,
 				E408B69A205D166F00E937E7 /* Assets.xcassets */,
 				E408B69C205D166F00E937E7 /* LaunchScreen.storyboard */,
 				E408B69F205D166F00E937E7 /* Info.plist */,
@@ -285,6 +300,7 @@
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
 				"${BUILT_PRODUCTS_DIR}/Graph/Graph.framework",
 				"${BUILT_PRODUCTS_DIR}/ImageSlideshow/ImageSlideshow.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
@@ -300,6 +316,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Graph.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageSlideshow.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
@@ -390,13 +407,18 @@
 			files = (
 				E436246A20608B7E00CF2AE7 /* UIImageView.swift in Sources */,
 				E4362468206085C000CF2AE7 /* SideMenuControllerViewController.swift in Sources */,
+				E43E29EB2085506A003DCD21 /* CakeViewController.swift in Sources */,
+				E4DCB19520A912DD00DFB454 /* PlaceViewController.swift in Sources */,
 				E4AFEF83205D1C8A0066A58E /* APIManager.swift in Sources */,
+				E43E29ED2085510E003DCD21 /* CakeTableViewCell.swift in Sources */,
 				E408B696205D166F00E937E7 /* ViewController.swift in Sources */,
 				E408B694205D166F00E937E7 /* AppDelegate.swift in Sources */,
 				E4FC565C205E27F1002732FC /* CakeCategoryTableViewCell.swift in Sources */,
 				E436246C2060903400CF2AE7 /* SideMenuTableViewCell.swift in Sources */,
+				E43E29EF20A0F437003DCD21 /* CakeOrderViewController.swift in Sources */,
+				E4DCB19720A9149500DFB454 /* PlaceTableViewCell.swift in Sources */,
 				E43E29E3207E05B3003DCD21 /* Cake.swift in Sources */,
-				E43E29E5207E0904003DCD21 /* Properties.swift in Sources */,
+				E43E29E5207E0904003DCD21 /* Variant.swift in Sources */,
 				E4952AE6205DAA6100622300 /* MainViewController.swift in Sources */,
 				E4FC565E205E2C75002732FC /* CakeCategoryTableViewController.swift in Sources */,
 			);

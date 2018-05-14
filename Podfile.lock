@@ -17,6 +17,7 @@ PODS:
   - Alamofire (4.7.0)
   - AlamofireImage (3.3.0):
     - Alamofire (~> 4.5)
+  - DropDown (2.3.1)
   - Graph (2.2.0)
   - ImageSlideshow (1.5.1):
     - ImageSlideshow/Core (= 1.5.1)
@@ -49,12 +50,14 @@ PODS:
   - Toast-Swift (3.0.1)
 
 DEPENDENCIES:
+  - DropDown
   - Graph (~> 2.0)
   - ImageSlideshow (~> 1.5)
   - ImageSlideshow/AFURL
   - ImageSlideshow/Alamofire
   - ImageSlideshow/Kingfisher
   - ImageSlideshow/SDWebImage
+  - Kingfisher (~> 4.0)
   - Material (~> 2.0)
   - SideMenu
   - SwiftyJSON
@@ -64,6 +67,7 @@ SPEC CHECKSUMS:
   AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
   Alamofire: 907e0a98eb68cdb7f9d1f541a563d6ac5dc77b25
   AlamofireImage: 2e784dc5d00f04903a52c1d169181469c805c3df
+  DropDown: 20499c7b2731b0d21609af924e47c7677a2be50d
   Graph: 7c525bfb1c8e57442a5b34470fbefc014d9825b1
   ImageSlideshow: ae3de479b8c70dc751142d21573f5a28dbb97d4d
   Kingfisher: 98e6d5b5e807645743e8ed5ececd25d688d38452
@@ -74,6 +78,6 @@ SPEC CHECKSUMS:
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
   Toast-Swift: ba0b01b095aada709d915f9beb1d38184a2721c3
 
-PODFILE CHECKSUM: bbeecff723313593f0ad1ce8f756c3207caf2d45
+PODFILE CHECKSUM: 5c2a6a946c7ff2ce4dbc511ad713eab76a8f2454
 
 COCOAPODS: 1.4.0

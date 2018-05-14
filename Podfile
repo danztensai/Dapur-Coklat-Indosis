@@ -21,4 +21,7 @@ pod "ImageSlideshow/AFURL"
 pod "ImageSlideshow/Alamofire"
 pod "ImageSlideshow/SDWebImage"
 pod "ImageSlideshow/Kingfisher"
+pod 'Kingfisher', '~> 4.0'
+pod 'DropDown'
+
 end

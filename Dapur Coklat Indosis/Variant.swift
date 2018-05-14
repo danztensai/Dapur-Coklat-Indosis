@@ -8,6 +8,15 @@
 
 import Foundation
 class Variant {
+    //MARK : Properties
+    var size :String
+    var price :Int
     
+    //MARK : Intialize
+    init?(size:String,price:Int) {
+        self.size = size
+        self.price = price
+        
+    }
     
 }

@@ -13,7 +13,8 @@ class APIManager: NSObject {
     let baseURL = "http://122.129.112.169/opik/dapurcokelat_delivery/"
     static let sharedInstance = APIManager()
     static let getPostsEndpoint = "/posts/"
-    static let getUserLogin="/login/login"
+    static let getUserLogin = "/login/login"
+    static let getCakeByCategory = "delivery/get_catalog"
     
     func getUserLogin(username:String,password:String, onSuccess:@escaping(JSON)-> Void, onFailure: @escaping(Error)->Void){
         let url:String = baseURL+APIManager.getUserLogin
@@ -33,5 +34,27 @@ class APIManager: NSObject {
         })
         task.resume()
         
+    }
+    
+    func getCakeByCategory(category:String,onSuccess:@escaping(JSON)->Void,onFailure:@escaping(Error)->Void)
+    {
+        
+        let url:String = baseURL+APIManager.getCakeByCategory
+        let request: NSMutableURLRequest = NSMutableURLRequest(url: NSURL(string: url)! as URL)
+        request.httpMethod="POST"
+        print(category)
+        let postString = "category="+category
+        request.httpBody = postString.data(using: .utf8)
+        let session = URLSession.shared
+        
+        let task = session.dataTask(with: request as URLRequest,completionHandler:{data,response,error->Void in if(error != nil){onFailure(error!)
+            
+        }else {
+            let result = try!JSON(data: data!)
+            onSuccess(result)
+            }
+            
+        })
+        task.resume()
     }
 }

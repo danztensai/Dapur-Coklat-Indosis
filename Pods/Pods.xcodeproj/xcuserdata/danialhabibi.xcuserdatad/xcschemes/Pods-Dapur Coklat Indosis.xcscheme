@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "18251D047164DDF5824734B66B4D229E"
+               BlueprintIdentifier = "62A5D5A3327CD9C378482E5131DA5306"
                BuildableName = "Pods_Dapur_Coklat_Indosis.framework"
                BlueprintName = "Pods-Dapur Coklat Indosis"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -26,7 +26,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
@@ -37,7 +36,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -47,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "18251D047164DDF5824734B66B4D229E"
+            BlueprintIdentifier = "62A5D5A3327CD9C378482E5131DA5306"
             BuildableName = "Pods_Dapur_Coklat_Indosis.framework"
             BlueprintName = "Pods-Dapur Coklat Indosis"
             ReferencedContainer = "container:Pods.xcodeproj">

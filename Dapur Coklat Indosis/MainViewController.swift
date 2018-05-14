@@ -19,7 +19,7 @@ class MainViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
     @IBOutlet var slideshow: ImageSlideshow!
     
     
-    let cake_category = ["Regular Cakes","Praline","Snack","Chocolate Corner"]
+    let cake_category = ["Reguler Cake","Praline","Snack","Chocolate Corner"]
     let cake_description = ["A Whole of Happiness you can share with others","All Kind of Chocolate with various paste and lovely taste","Your True Friend For Every Situation","A Unique & Outstanding for your special events"];
     let cake_image = [UIImage(named: "regular cake"),UIImage(named: "praline"),UIImage(named: "snack"),UIImage(named: "chocolateCorner")]
     
@@ -32,9 +32,9 @@ class MainViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
     override func viewDidLoad() {
         super.viewDidLoad()
         let defaults = UserDefaults.standard
-        let session_key = defaults.object(forKey: "key_session") as! String
+        //let session_key = defaults.object(forKey: "key_session") as! String
         
-        print("Session Key From Persistence : "+session_key)
+        //print("Session Key From Persistence : "+session_key)
         
         slideshow.backgroundColor = UIColor.white
         slideshow.slideshowInterval = 5.0
@@ -46,7 +46,7 @@ class MainViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         // optional way to show activity indicator during image load (skipping the line will show no activity indicator)
         slideshow.activityIndicator = DefaultActivityIndicator()
         slideshow.currentPageChanged = { page in
-            print("current page:", page)
+           // print("current page:", page)
         }
         
         // can be used with other sample sources as `afNetworkingSource`, `alamofireSource` or `sdWebImageSource` or `kingfisherSource`
@@ -81,7 +81,7 @@ class MainViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         
         // 2
         nav?.barStyle = UIBarStyle.black
-        nav?.tintColor = UIColor.yellow
+        nav?.tintColor = UIColor.brown
         
         // 3
         let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 40, height: 40))
@@ -100,5 +100,39 @@ class MainViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         // set the activity indicator for full screen controller (skipping the line will show no activity indicator)
         fullScreenController.slideshow.activityIndicator = DefaultActivityIndicator(style: .white, color: nil)
     }
+    
+    // MARK: - Navigation
+    
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
+        super.prepare(for: segue, sender: sender)
+       
+        switch(segue.identifier ?? "") {
+            
+        case "ShowDetail" :
+            guard let CakeViewController = segue.destination as? CakeViewController else {
+                fatalError("Unexpected destination: \(segue.destination)")
+            }
+            
+            guard let selectedMealCell = sender as? CakeCategoryTableViewCell else {
+                fatalError("Unexpected sender: \(String(describing: sender))")
+            }
+            
+            guard let indexPath = tableView.indexPath(for: selectedMealCell) else {
+                fatalError("The selected cell is not being displayed by the table")
+            }
+            let selectedCake = cake_category[indexPath.row]
+        
+            CakeViewController.cakeCategory = selectedCake;
+        
+            
+        default:
+            //fatalError("Unexpected Segue Identifier; \(String(describing: segue.identifier))")
+            print("Open Menu")
+        }
+    }
+    
 }
 
